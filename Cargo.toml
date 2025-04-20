@@ -1,15 +1,31 @@
 [package]
-name = "charify"
+name = "gen-ascii-art"
 version = "0.1.0"
 edition = "2021"
-description = "A command-line tool to convert images and GIFs into ASCII art (color/grayscale)."
+description = "Generate colorful or grayscale ASCII art from images and GIFs directly in your terminal."
 authors = ["ss-sonic <shubham@routerprotocol.com>"]
-license = "MIT"
-repository = "https://github.com/ss-sonic/charify"
-documentation = "https://docs.rs/charify"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ss-sonic/gen-ascii-art"
+documentation = "https://docs.rs/gen-ascii-art"
 readme = "README.md"
-keywords = ["cli", "ascii-art", "image", "gif", "terminal"]
-categories = ["command-line-utilities", "multimedia::images"]
+keywords = [
+    "cli",
+    "ascii",
+    "art",
+    "ascii-art",
+    "generator",
+    "converter",
+    "image",
+    "gif",
+    "terminal",
+    "ansi-art",
+    "image-processing",
+]
+categories = [
+    "command-line-utilities",
+    "multimedia::images",
+    "multimedia::encoding",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

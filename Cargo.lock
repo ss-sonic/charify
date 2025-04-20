@@ -223,15 +223,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "charify"
-version = "0.1.0"
-dependencies = [
- "clap",
- "image",
- "imageproc",
-]
-
-[[package]]
 name = "clap"
 version = "4.5.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -367,6 +358,15 @@ checksum = "7ced92e76e966ca2fd84c8f7aa01a4aea65b0eb6648d72f7c8f3e2764a67fece"
 dependencies = [
  "crc32fast",
  "miniz_oxide",
+]
+
+[[package]]
+name = "gen-ascii-art"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "image",
+ "imageproc",
 ]
 
 [[package]]
