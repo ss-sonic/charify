@@ -8,24 +8,13 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/ss-sonic/gen-ascii-art"
 documentation = "https://docs.rs/gen-ascii-art"
 readme = "README.md"
-keywords = [
-    "cli",
-    "ascii",
-    "art",
-    "ascii-art",
-    "generator",
-    "converter",
-    "image",
-    "gif",
-    "terminal",
-    "ansi-art",
-    "image-processing",
-]
+keywords = ["ascii-art", "image", "gif", "generator", "cli"]
 categories = [
     "command-line-utilities",
     "multimedia::images",
     "multimedia::encoding",
 ]
+exclude = ["example.gif"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
