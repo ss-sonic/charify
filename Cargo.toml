@@ -1,0 +1,24 @@
+[package]
+name = "charify"
+version = "0.1.0"
+edition = "2021"
+description = "A command-line tool to convert images and GIFs into ASCII art (color/grayscale)."
+authors = ["[Your Name or Email]"]                                                               # Replace placeholder
+license = "MIT"
+repository = "[URL to your Git repository]"                                                      # Replace placeholder
+readme = "README.md"
+keywords = ["cli", "ascii-art", "image", "gif", "terminal"]
+categories = ["command-line-utilities", "multimedia::images"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = { version = "0.25.1", features = [
+    "gif",
+    "png",
+    "jpeg",
+] } # Enabled gif feature and common formats
+clap = { version = "4.5.4", features = [
+    "derive",
+] } # Added clap crate with derive feature
+imageproc = "0.25.0" # Add imageproc for blurring
