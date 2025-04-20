@@ -1,1 +1,17 @@
+# Rust build artifacts
 /target
+
+# Ignore Cargo lock file (optional, depends on project type)
+# Cargo.lock
+
+# Editor configuration files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+._*
+Thumbs.db 
